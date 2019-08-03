@@ -17,25 +17,32 @@ code {
 };
 
 .navbar {
-  height: 100px;
-  background-color: black;
+  height: 25vh;
+  background-color: #333333 ;
   box-sizing: border-box;
   position: fixed;
-  border: solid 1px black;
+  border-bottom: solid 5px #D4145A;
   width: 100%;
   top: 0;
-  opacity: 0.98;
-  letter-spacing: 1.5px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  height: 5vh;
-  text-decoration: white;
-
+  justify-content: space-between;
+  align-items: center;
 };
+
 .navbar p {
-  color: red;
+  color: white;
+  padding: 10px;
+};
+
+#logo-mercedes-grossmann {
+  height: 10vh;
+};
+
+@media (max-width: 600px) {
+div {
+  background: blue;
 }
+};
   
 
 

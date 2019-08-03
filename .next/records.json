@@ -1,0 +1,52 @@
+{
+  "mini-css-extract-plugin node_modules/css-loader/dist/cjs.js??ref--5-1!index.css": [
+    {
+      "modules": {
+        "byIdentifier": {},
+        "usedIds": {}
+      },
+      "chunks": {
+        "byName": {
+          "mini-css-extract-plugin": 0
+        },
+        "bySource": {},
+        "usedIds": [
+          0
+        ]
+      }
+    }
+  ],
+  "modules": {
+    "byIdentifier": {
+      "css node_modules/css-loader/dist/cjs.js??ref--5-1!index.css 0": 0
+    },
+    "usedIds": {
+      "0": 0
+    }
+  },
+  "chunks": {
+    "byName": {
+      "commons": 0,
+      "static/runtime/webpack.js": 1,
+      "static/YbX4GD7pHEVnopfBa0VbX/pages/_app.js": 2,
+      "static/YbX4GD7pHEVnopfBa0VbX/pages/_error.js": 3,
+      "static/YbX4GD7pHEVnopfBa0VbX/pages/index.js": 4,
+      "static/YbX4GD7pHEVnopfBa0VbX/pages/navBar.js": 5,
+      "static/YbX4GD7pHEVnopfBa0VbX/pages/services.js": 6,
+      "static/runtime/main.js": 7,
+      "styles": 8
+    },
+    "bySource": {},
+    "usedIds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ]
+  }
+}

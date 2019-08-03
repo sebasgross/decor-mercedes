@@ -1,0 +1,47 @@
+/*
+Colors: pink #D4145A
+*/
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+};
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+};
+
+.navbar {
+  height: 25vh;
+  background-color: #333333 ;
+  box-sizing: border-box;
+  position: fixed;
+  border-bottom: solid 5px #D4145A;
+  width: 100%;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+};
+
+.navbar p {
+  color: white;
+  padding: 10px;
+};
+
+#logo-mercedes-grossmann {
+  height: 10vh;
+};
+
+@media (max-width: 600px) {
+div {
+  background: blue;
+}
+};
+  
+
