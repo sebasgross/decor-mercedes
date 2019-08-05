@@ -1,8 +1,8 @@
 import React from 'react';
 import App, { Container } from 'next/app';
-import NavBar from './navBar'
-import css from "../index.css"
-import Services from './services';
+import NavBar from './navBar';
+import css from "../index.css";
+import 'bootstrap/dist/css/bootstrap.css';
 
 
 class MyApp extends App {
@@ -43,7 +43,6 @@ class MyApp extends App {
             <div className="app">
                 <Container>
 					<NavBar></NavBar>
-					<Services></Services>							
 					<Component {...pageProps} />
                 </Container>
             </div>

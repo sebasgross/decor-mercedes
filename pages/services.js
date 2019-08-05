@@ -8,32 +8,36 @@ class Services extends Component {
                 <h1>Servicios</h1>
                 <div className="services-card">
                 <span>
-                    <h3>Consultation</h3>
+                    <p>Consultation</p>
                 </span>
                 <span>
-                    <h3>Design</h3>
+                    <p>Design</p>
                 </span>
                 <span>
-                    <h3>Renovation</h3>
+                    <p>Renovation</p>
                 </span>
                 </div>
                 <div className="services-card">
                 <span>
-                    <h3>Staging</h3>
+                    <p>Staging</p>
                 </span>
                 <span>
-                    <h3>Deco-Kids</h3>
+                    <p>Deco-Kids</p>
                 </span>
                 <span>
-                    <h3>Commercial</h3>
+                    <p>Commercial</p>
                 </span>
                 </div>
                 </section>
                 <style jsx>{`
                     .services-page {
                         display: fixed;
-                        margin-top: 25vh;
+						margin: 20vh 5vw;
                         align-items: center;
+                        justify-content: center;
+                    }
+                    .services-page h1 {
+                        text-align: center;
                     }
                     .services-page section {
                         flex-direction: row;
@@ -42,8 +46,16 @@ class Services extends Component {
                     .services-card {
                         diplay: flex;
                         flex-direction: row;
+                        align-content: space-around;
+                        width: 100%;
+                        border: 1px solid;
                         // margin: 10px;
                         flex-wrap: wrap;
+                    }
+                    .services-card span {
+                        height: 10vh;
+                        width: 10vw;  
+                        flex-direction: row;      
                     }
                     `}</style>
                 </div>

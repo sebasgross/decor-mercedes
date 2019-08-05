@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-// import Services from './services';
+import Services from './services';
 
 class Index extends Component {
 
@@ -7,6 +7,7 @@ class Index extends Component {
 
 		return ( 
 				<div>
+					<Services></Services>							
 				</div>
 			)
     }

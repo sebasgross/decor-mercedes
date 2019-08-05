@@ -40,18 +40,18 @@ class NavBar extends Component {
 
 				<div id="navbar" className="navbar">
 				<a href="/index" id="nav-links">Services</a>
+				{"|"}
 				<a href="/index" id="nav-links">Projects</a>
 				<img id="logo-mercedes-grossmann" className="logo-big" src="https://i.dlpng.com/static/png/173886_preview.png" alt="logo"></img>
 				<a href="/index" id="nav-links" >Work</a>
-				<a href="/index" id="nav-links" >Work</a>
+				{"|"}
+				<a href="/portfolio" id="nav-links" >PORTFOLIO</a>
 
 		<style jsx>{`
 		@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
-			.nav {
-				margin-bottom: 50px;
-			}
+
 			.navbar {
-					height: 20vh;
+					height: 18vh;
 					background-color: #333333 ;
 					box-sizing: border-box;
 					position: fixed;
@@ -62,8 +62,8 @@ class NavBar extends Component {
 					justify-content: space-around;
 					align-items: center;
 					text-decoration: none;
-					font-size: 150%;
-					font-color: red;
+					font-size: 120%;
+					color: #D4145A;
 					
 			};
 			.navbar-smaller {
@@ -85,7 +85,6 @@ class NavBar extends Component {
 					color: white;
 					padding: 10px;
 					font-family: 'Montserrat bold', sans-serif;
-					font-size: 4vh;
 					text-decoration: none;
 
 			};
@@ -99,7 +98,7 @@ class NavBar extends Component {
 			};
 
 			.logo-big {
-				height: 20vh;
+				height: 15vh;
 			};
 
 			@media (max-width: 600px) {
@@ -108,6 +107,7 @@ class NavBar extends Component {
 			}
 			};
 		`}</style>
+
 
 		</div>
 		</div>
